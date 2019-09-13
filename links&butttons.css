@@ -1,0 +1,21 @@
+a
+{
+    color:#333;
+    text-decoration: none;
+    
+}
+a:hover{
+         color: red;
+         
+}
+a:visited
+{
+    color: green;
+}
+a:active
+{
+    color: blue;
+}
+
+/*  */
+/*  */

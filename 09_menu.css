@@ -1,0 +1,52 @@
+
+/*navbar  */
+.nav-bar
+{
+    list-style: none;
+    margin: 0PX;
+    padding: 0PX;
+    background-color: blue;
+    overflow: auto;
+}
+.nav-bar li{
+    float: left;
+    
+    
+}
+.nav-bar li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+}
+.nav-bar li a:hover
+{
+    background-color: #446190;
+    color: #f4f4f4;
+}
+
+/* side menu */
+.side-menu
+{
+    list-style: none;
+    border: 1px #ddd solid;
+    width: 300px; 
+    border-radius: 10px;
+    padding: 20px;
+}
+.side-menu li
+{
+    font-size: 18px;
+    line-height: 2.4em;
+    border-bottom: dotted 1px #ddd;
+
+}
+.side-menu li a{
+    color: #333;
+    text-decoration: none;
+
+}
+.side-menu li a:hover
+{
+    color: red;
+}
