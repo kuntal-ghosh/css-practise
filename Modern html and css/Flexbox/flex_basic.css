@@ -1,8 +1,42 @@
 #container {
   display: flex;
   /* flex-direction: row-reverse; */
+  /* it will reverse the row and starts from right*/
   /* flex-direction: column; */
-  justify-content: center;
+  /* it will decorate the item in column */
+  /* justify-content: center; */
+  /* it will put the item horizontaly center */
+  /* justify-content: space-evenly; */
+  /* allign items horizontally */
+  /*options:
+  flex-start
+  flex-end
+  space-between
+  space-around
+  space-evenly 
+  */
+  height: 600px;
+  /* allign items vertically (must be a height)*/
+  align-items: baseline;
+  /* 
+  options:
+  flex-start
+  flex-end;
+  center
+  baseline
+  stretch
+   */
+  /* allign items vertically whereextra space */
+  align-content: space-between;
+  /* 
+   options;
+   flex-start
+   flex-end
+   center
+   space-between
+   space-around
+   stretch
+   */
 }
 .item {
   background: red;
