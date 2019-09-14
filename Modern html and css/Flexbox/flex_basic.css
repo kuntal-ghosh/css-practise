@@ -1,5 +1,6 @@
 #container {
   display: flex;
+  background-color: aqua;
   /* flex-direction: row-reverse; */
   /* it will reverse the row and starts from right*/
   /* flex-direction: column; */
@@ -37,6 +38,12 @@
    space-around
    stretch
    */
+}
+.item-2 {
+  /* allign single item vertically */
+  align-self: flex-end;
+  /* we can set the order of markup items using css */
+  order: 5;
 }
 .item {
   background: red;
